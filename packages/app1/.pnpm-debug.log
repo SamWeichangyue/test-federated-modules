@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/Users/weichangyue/代码/test-federated-modules"
+  },
+  "1 error pnpm": {
+    "errno": 2,
+    "code": "ELIFECYCLE",
+    "pkgid": "app-1@0.0.0",
+    "stage": "start",
+    "script": "webpack serve --port 3002",
+    "pkgname": "app-1",
+    "err": {
+      "name": "pnpm",
+      "message": "app-1@0.0.0 start: `webpack serve --port 3002`\nExit status 2",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: app-1@0.0.0 start: `webpack serve --port 3002`\nExit status 2\n    at EventEmitter.<anonymous> (/Users/weichangyue/.nvm/versions/node/v16.13.0/lib/node_modules/pnpm/dist/pnpm.cjs:106976:20)\n    at EventEmitter.emit (node:events:390:28)\n    at ChildProcess.<anonymous> (/Users/weichangyue/.nvm/versions/node/v16.13.0/lib/node_modules/pnpm/dist/pnpm.cjs:93542:18)\n    at ChildProcess.emit (node:events:390:28)\n    at maybeClose (node:internal/child_process:1064:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}

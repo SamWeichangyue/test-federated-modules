@@ -1,0 +1,1 @@
+{"version":3,"file":"src_react-dom_js.js","mappings":";;;;;;;;;;;;;;AAAA;AACA,iEAAeA,sCAAf","sources":["webpack://lib/./src/react-dom.js"],"sourcesContent":["import lib from 'react-dom';\nexport default lib;\n"],"names":["lib"],"sourceRoot":""}
